@@ -1,12 +1,22 @@
-#include <iostream>
-#include <string>
-#include <fstream>
+#include "matches.h"
 
 int main() {
-    freopen("matches.txt", "w", stdout);
-    freopen("data.txt", "r", stdin);
-
-    std::map<std::string, int> matches; // for each pair of letters (such as "fg", "aa", etc.) we calculate number of it's matches in the text
-
+    /*
+    If you want to get matches from your text file, type it's name instead of "data.txt", 
+    and your output file name instead of "MyMatches.txt"
+    */
+    
+    /*
+    std::ifstream text("data.txt");
+    std::ofstream output("MyMatches.txt");
+    getMatchesFromText(text, output);
+    text.close();
+    output.close();
+    */
+    // If you want to update file "matches.txt" (it contains matches from previous files), do following:
+    
+    std::ifstream text("data.txt");
+    getMatchesFromText(text);
+    text.close();
     
 }
