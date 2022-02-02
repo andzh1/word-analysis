@@ -20,7 +20,7 @@ std::string lowercase(std::string input) {
 }
 
 std::pair<std::string, int> parseMatch(std::string input) { 
-    /* we have a string like that: "aa - 123", "aa" - any pair of chars, 123 - number of matches of that pair,
+    /* we have a string like that: "aa - 123", "aa" - any sequence of chars (it's size = SEQUENCE_SIZE), 123 - number of matches of that pair,
     and we want to parse it into pair <"aa", 123>
     */
     std::string pairOfChars = input.substr(0, SEQUENCE_SIZE);
@@ -40,7 +40,7 @@ std::map<std::string, int> readMatches(std::istream& matchesList) {
     return matches;
 }
 
-bool isStrOfLetters(std::string s) {
+bool isStringOfLetters(std::string s) {
     for (auto ch: s) {
         if (!isLetter(ch)) return false;
     }
@@ -60,7 +60,7 @@ void getMatchesFromText(std::istream& text) {
         currentSequence.push_back(symbolToAppend);
     }
     while(!text.eof()) {
-        if (isStrOfLetters(currentSequence)) {
+        if (isStringOfLetters(currentSequence)) {
             ++matches[lowercase(currentSequence)];
         }
         symbolToAppend = text.get();

@@ -29,7 +29,7 @@ public:
 private:
     int countMatches(std::string word);
 public:
-    std::string decodeCesar(std::string word);
+    std::string CesarDecrypted(std::string word);
     // Returns most probable word that could be coded with Cesar code (shifts all letters by K, 'a' -> '(a+K)')
         
 
@@ -65,7 +65,7 @@ int Text::countMatches(std::string word) {
     return answer;
 }
 
-std::string Text::decodeCesar(std::string word) {
+std::string Text::CesarDecrypted(std::string word) {
     // Returns most probable word that could be coded with Cesar code (shifts all letters by K, 'a' -> '(a+K)')
     int maxNumberOfMatches = countMatches(word);
     std::string decodedWord = word;
