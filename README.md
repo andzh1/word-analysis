@@ -17,7 +17,7 @@ To figure our whether our hypothesis is correct, and in how many cases it works 
  For each substring of `SEQUENCE_SIZE` of given text, which contains only letters, we add to number of it's matches 1 when we meet it in the text.
  
  ### Algorighm of checking correctness:
- For each word in given list of words we calculate it's sum of matches (as sum of matches in our dataset of all substrings of `SEQUENCE_SIZE` of our word); then for each  [*shifted*](#### Definitions)
+ For each word in given list of words we calculate it's sum of matches (as sum of matches in our dataset of all substrings of `SEQUENCE_SIZE` of our word); then for each  *[shifted](#### Definitions)*
  
  You can find implementation of collecting matches from the text [in this file](https://github.com/andzh1/words-analysis/blob/main/getMatchesFromText.cpp), and implementation of checking correctness [here](https://github.com/andzh1/words-analysis/blob/main/wordCheck.h).
 
