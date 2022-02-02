@@ -9,8 +9,11 @@ To figure our whether our hypothesis is correct, and in how many cases it works 
 
  ![alt text](https://github.com/andzh1/words-analysis/blob/main/Diagramm%20of%20correctness.png) 
  
+ As we see, our hypothesis works, and it's correctness grows up as words' length increases. Correctness of our algorithm is 75% in average; for words of length >= 8 it is 85%. 
  
  ## Process and implementation
+ 
+ 
 
 #### Definitions
 - "match, matches" - pair of string & integer, represents how many times does this strings occurs in the text.
