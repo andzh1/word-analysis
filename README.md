@@ -6,8 +6,8 @@ In English texts all letters have their supposed frequensy (as example, in text 
 
 ## Correctness of our hypothesis
 To figure our whether our hypothesis is correct, and in how many cases it works correct. 
-![Alt-текст](https://avatars1.githubusercontent.com/u/5384215?v=3&s=460 "Орк")
-## Process and implementation
+ ![alt text](figures/img.png) 
+ ## Process and implementation
 
 #### Definitions
 - "match, matches" - pair of string & integer, represents how many times does this strings occurs in the text.
