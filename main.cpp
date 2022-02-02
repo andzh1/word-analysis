@@ -1,11 +1,13 @@
 #include "wordCheck.h"
 
+
+
 int main() {
     std::ifstream matches("LordMatches.txt");
     Text LordOfTHeRings(matches);
     std::string word;
     std::cin >> word;
-    std::cout << LordOfTHeRings.decodeCesar(word); 
+    std::cout << LordOfTHeRings.CesarDecrypted(word); 
     // finds most probable word that could be coded with Cesar code (shifts all letters by K, 'a' -> '(a+K)')
 
     std::cout << LordOfTHeRings.fixLetterIn(word);

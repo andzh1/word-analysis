@@ -24,7 +24,7 @@ void checkCorrectnessOf(std::ifstream& listOfWords, Text database) {
 int main() {
     std::ifstream matches("LordMatches.txt");
     Text LordOfTHeRings(matches);
-    std::ifstream listOfWords("words.txt");
+    std::ifstream listOfWords("wordsForCheck.txt");
     checkCorrectnessOf(listOfWords, LordOfTHeRings);
     // finds most probable word that could be coded with Cesar code (shifts all letters by K, 'a' -> '(a+K)')
 
