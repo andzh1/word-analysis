@@ -5,9 +5,11 @@ Here is my school project (2021) on analyzing texts by counting numbers of match
 In English texts all letters have their supposed frequensy (as example, in text of 1000 symbols there would be about 100 letters 'O', 80 letters 'E' etc.). So purpose of this project is to figure out whether it is possible to determine "correctness" of given text by calculating for each string of fixed length, how many times does it occurs in this text, & compare this frequency distribution with frequency distribution of real, 100% correct text.
 
 ## Correctness of our hypothesis
-To figure our whether our hypothesis is correct, and in how many cases it works correct. 
+To figure our whether our hypothesis is correct, and in how many cases it works correct. To do it, I've taken random part of analysed text (about 3000 words, you can find them in [file](https://github.com/andzh1/words-analysis/blob/main/wordsForCheck.txt)). Then for each word I checked whether it is correct (in terms of our hypothesis it means that it has biggest sum of matches via all strings that can be obtained by encryption of our word with Caesar's cipher). You can see results on following diagram:
 
  ![alt text](https://github.com/andzh1/words-analysis/blob/main/Diagramm%20of%20correctness.png) 
+ 
+ 
  ## Process and implementation
 
 #### Definitions
