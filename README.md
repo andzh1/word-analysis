@@ -13,7 +13,7 @@ To figure our whether our hypothesis is correct, and in how many cases it works 
  
  ## Process and implementation
  
- 
+ You can see implementation of collecting matches from the text [here]()
 
 #### Definitions
 - "match, matches" - pair of string & integer, represents how many times does this strings occurs in the text.
