@@ -4,6 +4,9 @@ Here is my school project (2021) on analyzing texts by counting numbers of match
 ## Hypothesis
 In English texts all letters have their supposed frequensy (as example, in text of 1000 symbols there would be about 100 letters 'O', 80 letters 'E' etc.). So purpose of this project is to figure out whether it is possible to determine "correctness" of given text by calculating for each string of fixed length, how many times does it occurs in this text, & compare this frequency distribution with frequency distribution of real, 100% correct text.
 
+## Correctness of our hypothesis
+To figure our whether our hypothesis is correct, and in how many cases it works correct. 
+
 ## Process and implementation
 
 #### Definitions
