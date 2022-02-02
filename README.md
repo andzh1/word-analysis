@@ -6,6 +6,7 @@ In English texts all letters have their supposed frequensy (as example, in text 
 
 ## Correctness of our hypothesis
 To figure our whether our hypothesis is correct, and in how many cases it works correct. 
+
  ![alt text](https://github.com/andzh1/words-analysis/blob/main/Diagramm%20of%20correctness.png) 
  ## Process and implementation
 
